@@ -51,7 +51,7 @@ function parseInput(userInput, rdNumber) {
 	}
 	else{
 		console.log(" [ ERROR ] a fatal error happen ");
-		
+		process.exit()	
 	}
 }
 
